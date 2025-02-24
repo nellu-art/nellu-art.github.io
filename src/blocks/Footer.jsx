@@ -23,11 +23,11 @@ export const Footer = () => {
               </span>
               <p> +380980430707</p>
             </a>
-            <a href="mailto:menzatov@me.com" className="contact-info">
+            <a href="mailto:stereoua@gmail.com" className="contact-info">
               <span className="icon">
                 <MailIcon />
               </span>
-              <p>menzatov@me.com</p>
+              <p>stereoua@gmail.com</p>
             </a>
           </div>
         </div>
