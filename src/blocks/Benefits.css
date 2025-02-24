@@ -1,0 +1,98 @@
+.benefits {
+  padding: 5rem 0;
+}
+
+.benefits > h2 {
+  font-family: "Mont-Light", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  max-width: 60%;
+  margin: 0;
+  text-align: left;
+  padding-bottom: 5rem;
+  line-height: 1.25;
+}
+
+.benefits-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.benefits-content > div {
+  flex: 1;
+  background-color: var(--gray);
+  border-radius: 0.75rem;
+  max-width: 49%;
+}
+
+.left-part {
+  padding: 4rem 2rem;
+}
+
+.group-one {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.group-one > div {
+  flex: 1;
+}
+
+.group-two {
+  display: flex;
+  justify-content: space-between;
+}
+
+.group-two > div {
+  flex: 1;
+}
+
+.benefit-block {
+  display: flex;
+  align-items: center;
+  max-width: 48%;
+}
+
+.benefit-icon {
+  width: 1.75rem;
+  height: 1.75rem;
+  margin-right: 1rem;
+}
+
+.benefit-content > h3 {
+  margin: 0;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+  text-align: left;
+}
+
+.benefit-content > p {
+  margin: 0;
+  font-family: "HelveticaNeueMedium", sans-serif;
+  font-weight: 500;
+  font-size: 1rem;
+  white-space: pre-line;
+  color: var(--white-60);
+  line-height: 1.5;
+  margin-bottom: 0.75rem;
+  text-align: left;
+}
+
+.right-part {
+  position: relative;
+}
+
+.house-shape {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+}
+
+.right-part > p {
+  position: absolute;
+  bottom: 2rem;
+  left: 4rem;
+  font-size: 1.5rem;
+}

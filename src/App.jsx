@@ -1,30 +1,28 @@
 import "./App.css";
+import { Main } from "./blocks/Main.jsx";
+import { Slogan } from "./blocks/Slogan.jsx";
+import { Story } from "./blocks/Story.jsx";
+import { Benefits } from "./blocks/Benefits.jsx";
+import { Projects } from "./blocks/Projects.jsx";
+import { Info } from "./blocks/Info.jsx";
+import { Footer } from "./blocks/Footer.jsx";
 
 function App() {
   return (
-    <main className="main">
-      <div className="cube-image" />
+    <main>
+      <Main />
 
-      <div className="header">
-        <h1>ART IN</h1>
-        <h1>Every Pixel</h1>
-      </div>
+      <Slogan />
 
-      <div className="information">
-        <h3>We’re working on something great!</h3>
+      <Story />
 
-        <p>
-          {`Our website is under construction.
-          For inquiries, please contact us here:`}
-        </p>
+      <Benefits />
 
-        <div className="contact">
-          <p>Oleksii Menzatov</p>
-          <a href="mailto:stereoua@gmail.com">stereoua@gmail.com</a>
-        </div>
-      </div>
+      <Projects />
 
-      <img src="/logo.svg" alt="logo" className="logo-image" />
+      <Info />
+
+      <Footer />
     </main>
   );
 }

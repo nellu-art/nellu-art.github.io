@@ -1,0 +1,74 @@
+.footer {
+  padding: 5rem 0;
+}
+
+.footer h2 {
+  font-family: "Mont-Light", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  margin: 0;
+  text-align: left;
+  padding-bottom: 5rem;
+  line-height: 1.25;
+}
+
+.footer-content {
+  font-family: "HelveticaNeueMedium", sans-serif;
+  color: var(--white);
+  background-color: var(--gray);
+  padding: 1.5rem 2rem;
+  border-radius: 0.75rem;
+
+  display: flex;
+  max-width: 70%;
+  justify-content: space-evenly;
+}
+
+.footer-image {
+  width: 10rem;
+  height: auto;
+  border-radius: 50%;
+}
+
+.footer-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.footer-text p {
+  text-align: left;
+  margin: 0;
+  white-space: pre-line;
+  font-size: 1rem;
+}
+
+.footer-text > p:first-child {
+  font-size: 1rem;
+  margin-bottom: 0.75rem;
+}
+
+.footer-text a {
+  text-decoration: none;
+  font-weight: 500;
+  color: var(--white);
+}
+
+.contact > .contact-name {
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.contact > .contact-info {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  margin-bottom: 0.25rem;
+}
+
+.contact .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

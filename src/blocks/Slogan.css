@@ -1,0 +1,14 @@
+.slogan {
+  padding: 5rem 0;
+  display: flex;
+}
+
+.slogan h2 {
+  font-family: "Mont-Light", sans-serif;
+  font-size: 3rem;
+  font-weight: 300;
+  max-width: 60%;
+  margin: 0;
+  text-align: left;
+  line-height: 1.25;
+}
